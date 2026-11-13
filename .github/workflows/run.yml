@@ -1,17 +1,16 @@
-[
-  {
-    "url": "https://wwp.giriucat.com/redirect-zone/26fc8da1",
-    "pageTitle": "Download Setup",
-    "text": "Your File Is Ready To Download\n(Setup)\nDownload",
-    "#error": false,
-    "#debug": {
-      "requestId": "aIhaWh7VlvJwXeVq",
-      "url": "https://wwp.giriucat.com/redirect-zone/26fc8da1",
-      "method": "GET",
-      "retryCount": 0,
-      "errorMessages": null,
-      "loadedUrl": "https://downloadfine.com/a5f8b83952232aa3c6e217f2278e2e761dc7ddd0eedf20f6",
-      "statusCode": 200
-    }
-  }
-]
+name: Run JSON
+
+on:
+  workflow_dispatch:
+
+jobs:
+  process:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Read JSON
+        run: |
+          python -c "import json; print(json.load(open('data.json')))"
