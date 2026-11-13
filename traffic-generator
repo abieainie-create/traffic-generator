@@ -1,0 +1,17 @@
+[
+  {
+    "url": "https://wwp.giriucat.com/redirect-zone/26fc8da1",
+    "pageTitle": "(1) Notification",
+    "text": "Install our app and continue watching content in Safe mode\n0:11 / 1:38",
+    "#error": false,
+    "#debug": {
+      "requestId": "co4D4mnVOOxnsdkU",
+      "url": "https://wwp.giriucat.com/redirect-zone/26fc8da1",
+      "method": "GET",
+      "retryCount": 0,
+      "errorMessages": null,
+      "loadedUrl": "https://mango.towps.com/?utm_medium=b3e031ab5a8df390fa1f5ecde8c6abdda0fdd3b8&utm_campaign=november&cid=dbr8iru53f1c73ctt1mg&1=12_1popzone146925-146925_1&2=&3=&4=&5=&puid=7707498926437302294&fl=1&np=1#0",
+      "statusCode": 200
+    }
+  }
+]
